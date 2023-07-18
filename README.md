@@ -8,6 +8,9 @@
 * Hilt
 * DataStorePreference
 
+## Video
+
+https://github.com/Geletinousamigo/TaskApp/assets/96196430/bbf36c59-070f-4555-826c-83904093a1e5
 
 ## Images
 
@@ -37,7 +40,3 @@
     </td>
   </tr>
 </table>
-
-
-
-
