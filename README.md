@@ -10,7 +10,7 @@
 
 ## Video
 
-https://github.com/Geletinousamigo/TaskApp/assets/96196430/bbf36c59-070f-4555-826c-83904093a1e5
+https://github.com/Geletinousamigo/TaskApp/assets/96196430/92b01071-5a57-42d4-bd49-a6431276ee5c
 
 ## Images
 
