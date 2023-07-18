@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardBackgroundColor="?attr/colorSecondaryContainer">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/candidate_name"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="CandidateName"
+                android:textColor="?attr/colorOnSecondaryContainer" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/candidate_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:text="Email: "
+                android:textColor="?attr/colorOnSecondaryContainer" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/candidate_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:text="Phone: "
+                android:textColor="?attr/colorOnSecondaryContainer" />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/candidate_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:text="Score: "
+                android:textColor="?attr/colorOnSecondaryContainer" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/candidate_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:text="Description: "
+                android:textColor="?attr/colorOnSecondaryContainer"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/item_description_img"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_weight="0.1"
+                app:srcCompat="@drawable/ic_expand_more_black_24dp"
+                app:tint="?attr/colorOnSecondaryContainer" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
